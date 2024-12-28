@@ -83,3 +83,39 @@ body {
 #equals {
     grid-column: span 2;
 }
+
+
+
+/* Responsive Adjustments */
+@media (max-width: 780px) {
+    .calculator {
+        width: 40%;
+        margin: 2rem auto;
+    }
+
+    .calculator-display {
+        font-size: 1.8rem;
+        padding: 8px;
+    }
+
+    .key {
+        font-size: 1.2rem;
+        height: 50px;
+    }
+}
+
+@media (max-width: 500px) {
+    .calculator {
+        width: 80%;
+    }
+
+    .calculator-display {
+        font-size: 1.5rem;
+        height: 50px;
+    }
+
+    .key {
+        font-size: 1rem;
+        height: 40px;
+    }
+}
